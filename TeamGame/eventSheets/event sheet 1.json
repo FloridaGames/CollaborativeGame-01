@@ -1,0 +1,30 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 774418646314398,
+					"parameters": {
+						"interval-seconds": "0.25"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Hero",
+					"sid": 718489394576059,
+					"parameters": {
+						"angle": "Hero.Angle+random(0,90)"
+					}
+				}
+			],
+			"sid": 369640693797532
+		}
+	],
+	"sid": 761645897772874
+}
